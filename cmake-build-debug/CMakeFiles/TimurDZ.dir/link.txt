@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/TimurDZ.dir/main.cpp.o CMakeFiles/TimurDZ.dir/FileCommander.cpp.o CMakeFiles/TimurDZ.dir/FileCommanderStream.cpp.o CMakeFiles/TimurDZ.dir/FileCommanderIterator.cpp.o  -o TimurDZ 

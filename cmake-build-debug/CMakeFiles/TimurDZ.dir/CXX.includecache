@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/vladimir.sukiasyan/CLionProjects/TimurDZ/FileCommander.h
+vector
+-
+fstream
+-
+random
+-
+iostream
+-
+
+/Users/vladimir.sukiasyan/CLionProjects/TimurDZ/FileCommanderIterator.h
+FileCommander.h
+/Users/vladimir.sukiasyan/CLionProjects/TimurDZ/FileCommander.h
+
+/Users/vladimir.sukiasyan/CLionProjects/TimurDZ/FileCommanderStream.h
+FileCommander.h
+/Users/vladimir.sukiasyan/CLionProjects/TimurDZ/FileCommander.h
+
+/Users/vladimir.sukiasyan/CLionProjects/TimurDZ/Modify.h
+vector
+-
+fstream
+-
+
+/Users/vladimir.sukiasyan/CLionProjects/TimurDZ/main.cpp
+FileCommanderStream.h
+/Users/vladimir.sukiasyan/CLionProjects/TimurDZ/FileCommanderStream.h
+FileCommanderIterator.h
+/Users/vladimir.sukiasyan/CLionProjects/TimurDZ/FileCommanderIterator.h
+Modify.h
+/Users/vladimir.sukiasyan/CLionProjects/TimurDZ/Modify.h
+

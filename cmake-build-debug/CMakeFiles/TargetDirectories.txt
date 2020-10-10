@@ -1,0 +1,3 @@
+/Users/vladimir.sukiasyan/CLionProjects/TimurDZ/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/vladimir.sukiasyan/CLionProjects/TimurDZ/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/vladimir.sukiasyan/CLionProjects/TimurDZ/cmake-build-debug/CMakeFiles/TimurDZ.dir
