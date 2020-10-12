@@ -6,7 +6,6 @@
 
 void FileCommanderStream::createData() {
     openFile();
-    //TODO тут можно вынести в базовый класс
     for (int i = 0; i < 100; ++i) {
         file << distrib(gen) << delimiter;
     }
@@ -14,6 +13,7 @@ void FileCommanderStream::createData() {
 }
 
 void FileCommanderStream::outputResult() {
+    
 }
 
 FileCommanderStream::FileCommanderStream(const std::string &filepath) : FileCommander(filepath) {}

@@ -22,7 +22,7 @@ public:
 
         typename T::value_type buffer;
         while (file >> buffer) {
-            data.push_back((buffer));
+            data.push_back(buffer);
         }
         file.close();
 

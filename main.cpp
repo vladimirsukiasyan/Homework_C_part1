@@ -2,6 +2,8 @@
 #include "FileCommanderIterator.h"
 #include "Modify.h"
 
+#include <map>
+
 int main(){
     FileCommanderStream fileCommanderStream("fileStream.txt");
     fileCommanderStream.createData();
@@ -19,5 +21,19 @@ int main(){
     FileCommanderIterator fileCommanderIterator("fileIterator.txt");
     fileCommanderIterator.createData();
     Vector_type dataIterator = fileCommanderIterator.loadData<Vector_type>();
+
+
+    typedef std::map<std::string, std::string> RecordType;
+    std::vector<RecordType> table;
+
+    for(int i = 0;i<100;i++){
+        RecordType record;
+        record["Фамилия"] = "Сукиасян";
+        record["Numver"] = "134";
+        table.push_back(record);
+    }
+
+    table[0].at("Фамилия")
+    table[0].at("Номер")
 }
 

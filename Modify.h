@@ -51,10 +51,14 @@ void modify4(const std::string &sourceFileName, const std::string &fileResultNam
         sum += elem;
     }
     sourceFile.close();
-    sourceFile.open("fileStream.txt", std::fstream::in);
+    sourceFile.open(sourceFileName, std::fstream::in);
 
-    std::transform(std::istream_iterator<int>(sourceFile), std::istream_iterator<int>(), std::ostream_iterator<int>(resultFile, "\n"),
-                   [sum](int elem) { return elem - sum; });
+    std::transform(
+            std::istream_iterator<int>(sourceFile),
+        std::istream_iterator<int>(),
+        std::ostream_iterator<int>(resultFile, "\n"),
+                [sum](int elem) { return elem - sum; }
+    );
 }
 
 
